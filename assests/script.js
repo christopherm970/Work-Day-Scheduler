@@ -6,10 +6,10 @@ $(document).ready(function(){
 
 
     var currentTime = moment().hours();
-    var time = $(".time");
+    var timeBlock = $(".time-block");
     
     //create a loop 
-    $(time).each(function (index, element) {
+    $(timeBlock).each(function (index, element) {
     
     //variable that finds current time in each time slot
     var timeRow = parseInt($(element).attr("data-time"));
